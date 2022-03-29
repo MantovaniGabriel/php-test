@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    padding: 5;
+    margin: 5;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+header{
+    padding: 5px;
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 10px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+main > .formulary{
+    margin-left: 10px;
+    max-width: 300px;
+    background-color: #FFFFFFBB;
+    padding: 10px;
+    box-shadow: 2px 2px 6px 1px rgb(129, 129, 129);
+}
+
+input[type="submit"]{
+    background-color: #48c5ce;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background-color: #3699a0;
+    border-radius: 10px;
+    transition: 0.6s;
+}
